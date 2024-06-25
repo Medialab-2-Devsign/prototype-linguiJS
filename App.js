@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { i18n } from "@lingui/core";
-import { I18nProvider } from "@lingui/react";
+import { I18nProvider, useLingui } from "@lingui/react";
 import { t, Trans } from "@lingui/macro";
 
 export default function App() {
